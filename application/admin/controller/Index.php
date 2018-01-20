@@ -12,7 +12,9 @@ class Index extends Base
         $this->model !=null?:$this->model=new Article();
     }
 
-    //后台首页
+    /**
+     * @return mixed
+     */
     public function index()
     {
         Cookie::get('ip')?:Cookie::set('ip',$this->request->ip());

@@ -19,11 +19,17 @@ class Login extends Controller
         $this->model!=null ?:$this->model=new Admin();
     }
 
+    /**
+     * @return mixed
+     */
     public function login()
     {
         return $this->fetch();
     }
 
+    /**
+     *后台登录
+     */
     public function dologin()
     {
 
@@ -68,6 +74,9 @@ class Login extends Controller
 
     }
 
+    /**
+     *后台退出
+     */
     public function logout()
     {
         Session::delete('admin.id');

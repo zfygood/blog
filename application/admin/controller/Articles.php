@@ -11,12 +11,20 @@ class Articles extends Base
         parent::__construct();
         $this->model !=null?:$this->model=new Article();
     }
+
+    /**
+     *
+     */
     public function load()
     {
         if($this->request->isAjax() && $this->request->isPost()) {
             $this->success('请求成功','',sys_config_get('article_path'));
         }
     }
+
+    /**
+     * @return array
+     */
     public function index()
     {
         if($this->request->isAjax()){
@@ -26,11 +34,17 @@ class Articles extends Base
         }
     }
 
+    /**
+     * @return mixed
+     */
     public function add()
     {
         return $this->fetch('article/article_add');
     }
 
+    /**
+     *
+     */
     public function doadd()
     {
         if($this->request->isAjax()){
@@ -38,6 +52,9 @@ class Articles extends Base
         }
     }
 
+    /**
+     *
+     */
     public function uploads()
     {
         $this->request->isAjax() ?: $this->error('请求方式错误');
@@ -47,6 +64,11 @@ class Articles extends Base
 //             return (['code'=>0,'msg'=>'上传成功','path'=>'/uploads/image/'.$info->getSaveName()]);
     }
 
+    /**
+     * @throws \think\db\exception\DataNotFoundException
+     * @throws \think\db\exception\ModelNotFoundException
+     * @throws \think\exception\DbException
+     */
     public function edit()
     {
         $id = $this->request->param('id');
@@ -57,6 +79,9 @@ class Articles extends Base
         $this->success('请求成功','',['data'=>$result,'info'=>$info]);
     }
 
+    /**
+     *
+     */
     public function update()
     {
         $this->request->isAjax()&&$this->request->isPost()?:$this->error('请求方式不正确');
@@ -65,6 +90,9 @@ class Articles extends Base
 
     }
 
+    /**
+     *
+     */
     public function delete()
     {
         $this->request->isAjax()&&$this->request->isPost()?:$this->error('请求方式错误');

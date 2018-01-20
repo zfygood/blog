@@ -7,3 +7,4 @@ Route::get('article','index/Articles/index');
 Route::get('admin/index','admin/Index/index');
 
 Route::get('user','admin/login/login');
+

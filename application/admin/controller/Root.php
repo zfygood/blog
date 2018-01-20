@@ -13,6 +13,9 @@ class Root extends Base
         $this->model !=null?:$this->model=new Admin();
     }
 
+    /**
+     * @return array|mixed
+     */
     public function list()
     {
         if($this->request->isAjax()){
