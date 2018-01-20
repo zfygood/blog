@@ -24,6 +24,7 @@ class Admin extends Model
         if(!$user){
             return false;
         }
+
         return md5($data['password'])==$user->password?$user:false;
     }
 

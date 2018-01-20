@@ -21,12 +21,12 @@ class Login extends Controller
 
     public function login()
     {
-
         return $this->fetch();
     }
 
     public function dologin()
     {
+
         $this->request->isPost() && $this->request->isAjax()?:$this->error('请求方式不正确');
 
         $this->request->url() == '/admin/login/dologin'?:$this->error('请求路径不正确');
@@ -44,8 +44,7 @@ class Login extends Controller
 
         $result = $this->model->auth($param);
 
-
-        if($result!=false){
+        if($result){
             $info = $this->model->power($result['id']);
 
             $nodelist['index'][] = 'index';

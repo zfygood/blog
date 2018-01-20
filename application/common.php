@@ -11,6 +11,10 @@
 
 // 应用公共文件
 
+/**
+ * @param $data
+ * @return bool|null|string
+ */
 function sys_config_get($data)
 {
     $file = ROOT_PATH . 'data/config.php';
