@@ -1,0 +1,3126 @@
+---------------------------------------------------------------
+[ 2018-01-08T12:54:47+08:00 ] 127.0.0.1 GET /
+[ info ] weibo.net/ [运行时间：0.199942s][吞吐率：5.00req/s] [内存消耗：2,764.08kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/index/view\index\index.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001296s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.008551s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY update_time desc [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:54:50+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.062233s][吞吐率：16.07req/s] [内存消耗：1,069.95kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'echo' (T_ECHO)[D:\wamp\www\blog\application\admin\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2018-01-08T12:54:50+08:00 ] 127.0.0.1 GET /favicon.ico
+[ info ] weibo.net/favicon.ico [运行时间：0.022410s][吞吐率：44.62req/s] [内存消耗：1,065.95kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://weibo.net/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T12:54:51+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.027203s][吞吐率：36.76req/s] [内存消耗：1,069.95kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'echo' (T_ECHO)[D:\wamp\www\blog\application\admin\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2018-01-08T12:55:03+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.032043s][吞吐率：31.21req/s] [内存消耗：1,070.23kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'echo' (T_ECHO)[D:\wamp\www\blog\application\admin\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2018-01-08T12:55:13+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.032286s][吞吐率：30.97req/s] [内存消耗：1,070.20kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ';'[D:\wamp\www\blog\application\admin\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2018-01-08T12:55:14+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.032576s][吞吐率：30.70req/s] [内存消耗：1,070.20kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ';'[D:\wamp\www\blog\application\admin\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2018-01-08T12:55:17+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.078137s][吞吐率：12.80req/s] [内存消耗：1,110.66kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[D:\wamp\www\blog\application\admin\controller\Index.php:2]
+---------------------------------------------------------------
+[ 2018-01-08T12:55:18+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.035210s][吞吐率：28.40req/s] [内存消耗：1,110.66kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[D:\wamp\www\blog\application\admin\controller\Index.php:2]
+---------------------------------------------------------------
+[ 2018-01-08T12:55:18+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.029163s][吞吐率：34.29req/s] [内存消耗：1,110.66kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[D:\wamp\www\blog\application\admin\controller\Index.php:2]
+---------------------------------------------------------------
+[ 2018-01-08T12:55:26+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.030963s][吞吐率：32.30req/s] [内存消耗：1,110.66kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[D:\wamp\www\blog\application\admin\controller\Index.php:2]
+---------------------------------------------------------------
+[ 2018-01-08T12:55:27+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.032344s][吞吐率：30.92req/s] [内存消耗：1,110.66kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[D:\wamp\www\blog\application\admin\controller\Index.php:2]
+---------------------------------------------------------------
+[ 2018-01-08T12:55:27+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.035169s][吞吐率：28.43req/s] [内存消耗：1,110.66kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[D:\wamp\www\blog\application\admin\controller\Index.php:2]
+---------------------------------------------------------------
+[ 2018-01-08T12:55:55+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.032730s][吞吐率：30.55req/s] [内存消耗：1,110.71kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[D:\wamp\www\blog\application\admin\controller\Index.php:2]
+---------------------------------------------------------------
+[ 2018-01-08T12:55:56+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.030618s][吞吐率：32.66req/s] [内存消耗：1,110.71kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[D:\wamp\www\blog\application\admin\controller\Index.php:2]
+---------------------------------------------------------------
+[ 2018-01-08T12:56:01+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.037941s][吞吐率：26.36req/s] [内存消耗：1,070.20kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ';'[D:\wamp\www\blog\application\admin\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2018-01-08T12:56:02+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.035108s][吞吐率：28.48req/s] [内存消耗：1,070.20kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ';'[D:\wamp\www\blog\application\admin\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2018-01-08T12:56:02+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.036555s][吞吐率：27.36req/s] [内存消耗：1,070.20kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ';'[D:\wamp\www\blog\application\admin\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2018-01-08T12:56:09+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.040309s][吞吐率：24.81req/s] [内存消耗：1,110.64kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[D:\wamp\www\blog\application\admin\controller\Index.php:2]
+---------------------------------------------------------------
+[ 2018-01-08T12:56:10+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.029696s][吞吐率：33.67req/s] [内存消耗：1,110.64kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[D:\wamp\www\blog\application\admin\controller\Index.php:2]
+---------------------------------------------------------------
+[ 2018-01-08T12:56:10+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.029096s][吞吐率：34.37req/s] [内存消耗：1,110.64kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[D:\wamp\www\blog\application\admin\controller\Index.php:2]
+---------------------------------------------------------------
+[ 2018-01-08T12:56:18+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.058552s][吞吐率：17.08req/s] [内存消耗：1,423.59kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\wamp\www\blog\thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T12:56:18+08:00 ] 127.0.0.1 GET /admin
+[ info ] weibo.net/admin [运行时间：0.035715s][吞吐率：28.00req/s] [内存消耗：1,423.52kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\wamp\www\blog\thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T12:56:21+08:00 ] 127.0.0.1 GET /user.html
+[ info ] weibo.net/user.html [运行时间：0.066411s][吞吐率：15.06req/s] [内存消耗：1,621.15kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user',
+  'route' => 'admin/login/login',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T12:56:27+08:00 ] 127.0.0.1 GET /user.html
+[ info ] weibo.net/user.html [运行时间：0.033281s][吞吐率：30.05req/s] [内存消耗：1,621.71kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user',
+  'route' => 'admin/login/login',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T12:56:27+08:00 ] 127.0.0.1 GET /user.html
+[ info ] weibo.net/user.html [运行时间：0.040086s][吞吐率：24.95req/s] [内存消耗：1,621.71kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user',
+  'route' => 'admin/login/login',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T12:56:27+08:00 ] 127.0.0.1 GET /user.html
+[ info ] weibo.net/user.html [运行时间：0.037729s][吞吐率：26.50req/s] [内存消耗：1,621.71kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user',
+  'route' => 'admin/login/login',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T12:56:34+08:00 ] 127.0.0.1 POST /admin/login/dologin
+[ info ] weibo.net/admin/login/dologin [运行时间：0.096723s][吞吐率：10.34req/s] [内存消耗：2,843.92kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'zadmin',
+  'password' => 'hackerzfy',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000972s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.014651s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'zadmin' LIMIT 1 [ RunTime:0.008834s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.009577s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` `a` INNER JOIN `node_role` `b` ON `b`.`rid`=`a`.`rid` INNER JOIN `node` `c` ON `b`.`nid`=`c`.`id` WHERE  `a`.`uid` = '1' [ RunTime:0.008461s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:56:37+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.030081s][吞吐率：33.24req/s] [内存消耗：1,034.02kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'echo' (T_ECHO)[D:\wamp\www\blog\application\admin\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2018-01-08T12:56:43+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.035687s][吞吐率：28.02req/s] [内存消耗：1,034.08kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'echo' (T_ECHO)[D:\wamp\www\blog\application\admin\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2018-01-08T12:56:44+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.027714s][吞吐率：36.08req/s] [内存消耗：1,034.08kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'echo' (T_ECHO)[D:\wamp\www\blog\application\admin\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2018-01-08T12:56:51+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.076861s][吞吐率：13.01req/s] [内存消耗：2,740.66kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000930s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:56:56+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.088049s][吞吐率：11.36req/s] [内存消耗：2,739.41kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000987s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000640s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:57:31+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.074280s][吞吐率：13.46req/s] [内存消耗：2,739.41kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000959s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:57:32+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.066923s][吞吐率：14.94req/s] [内存消耗：2,739.41kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001009s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:57:32+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.064396s][吞吐率：15.53req/s] [内存消耗：2,739.41kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000903s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000735s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:57:32+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.062656s][吞吐率：15.96req/s] [内存消耗：2,739.41kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001121s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:57:39+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.096337s][吞吐率：10.38req/s] [内存消耗：2,739.39kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013126s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.002456s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000715s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:57:40+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.071956s][吞吐率：13.90req/s] [内存消耗：2,739.39kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010942s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001075s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000969s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:57:40+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.073385s][吞吐率：13.63req/s] [内存消耗：2,739.39kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012484s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001529s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000617s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:57:41+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.078920s][吞吐率：12.67req/s] [内存消耗：2,739.39kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009979s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001201s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000674s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:57:41+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.115372s][吞吐率：8.67req/s] [内存消耗：2,739.39kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010593s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001357s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000831s ]
+---------------------------------------------------------------
+[ 2018-01-08T12:57:44+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.069607s][吞吐率：14.37req/s] [内存消耗：2,739.45kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010780s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001640s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000730s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:04:47+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.064557s][吞吐率：15.49req/s] [内存消耗：1,632.02kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:05:37+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.042208s][吞吐率：23.69req/s] [内存消耗：1,632.02kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:05:37+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.051411s][吞吐率：19.45req/s] [内存消耗：1,632.02kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:05:37+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.044299s][吞吐率：22.57req/s] [内存消耗：1,632.02kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:06:15+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.069908s][吞吐率：14.30req/s] [内存消耗：2,739.25kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001186s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000507s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:06:16+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.070698s][吞吐率：14.14req/s] [内存消耗：2,739.25kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001665s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:06:17+08:00 ] 127.0.0.1 POST /admin/articles/load
+[ info ] weibo.net/admin/articles/load [运行时间：0.084569s][吞吐率：11.82req/s] [内存消耗：1,687.16kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:06:18+08:00 ] 127.0.0.1 GET /admin/articles/index?page=1&limit=10
+[ info ] weibo.net/admin/articles/index?page=1&limit=10 [运行时间：0.060505s][吞吐率：16.53req/s] [内存消耗：2,731.18kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001084s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001118s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY update_time desc LIMIT 0,10 [ RunTime:0.000400s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:06:20+08:00 ] 127.0.0.1 POST /admin/articles/edit
+[ info ] weibo.net/admin/articles/edit [运行时间：0.084398s][吞吐率：11.85req/s] [内存消耗：2,689.59kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'id' => '23',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000973s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:11:22+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.038030s][吞吐率：26.30req/s] [内存消耗：1,631.95kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:37:28+08:00 ] 127.0.0.1 GET /user.html
+[ info ] weibo.net/user.html [运行时间：0.065691s][吞吐率：15.22req/s] [内存消耗：1,621.71kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user',
+  'route' => 'admin/login/login',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:37:35+08:00 ] 127.0.0.1 POST /admin/login/dologin
+[ info ] weibo.net/admin/login/dologin [运行时间：0.162288s][吞吐率：6.16req/s] [内存消耗：2,845.27kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'zadmin',
+  'password' => 'hackerzfy',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001237s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.024472s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'zadmin' LIMIT 1 [ RunTime:0.003770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.002486s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` `a` INNER JOIN `node_role` `b` ON `b`.`rid`=`a`.`rid` INNER JOIN `node` `c` ON `b`.`nid`=`c`.`id` WHERE  `a`.`uid` = '1' [ RunTime:0.011692s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:37:37+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.078324s][吞吐率：12.77req/s] [内存消耗：2,739.19kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001825s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001697s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000696s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:37:40+08:00 ] 127.0.0.1 POST /admin/articles/load
+[ info ] weibo.net/admin/articles/load [运行时间：0.047252s][吞吐率：21.16req/s] [内存消耗：1,687.16kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:37:40+08:00 ] 127.0.0.1 GET /admin/articles/index?page=1&limit=10
+[ info ] weibo.net/admin/articles/index?page=1&limit=10 [运行时间：0.064509s][吞吐率：15.50req/s] [内存消耗：2,731.18kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001200s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY update_time desc LIMIT 0,10 [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:37:57+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.072381s][吞吐率：13.82req/s] [内存消耗：2,739.25kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001063s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000400s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:37:57+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.062109s][吞吐率：16.10req/s] [内存消耗：2,739.25kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001554s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000584s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:37:58+08:00 ] 127.0.0.1 POST /admin/articles/load
+[ info ] weibo.net/admin/articles/load [运行时间：0.043651s][吞吐率：22.91req/s] [内存消耗：1,687.16kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:37:58+08:00 ] 127.0.0.1 GET /admin/articles/index?page=1&limit=10
+[ info ] weibo.net/admin/articles/index?page=1&limit=10 [运行时间：0.073231s][吞吐率：13.66req/s] [内存消耗：2,731.18kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010346s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001685s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY update_time desc LIMIT 0,10 [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:38:01+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.073256s][吞吐率：13.65req/s] [内存消耗：2,739.30kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010836s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001928s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000618s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:38:02+08:00 ] 127.0.0.1 POST /admin/articles/load
+[ info ] weibo.net/admin/articles/load [运行时间：0.043660s][吞吐率：22.90req/s] [内存消耗：1,687.16kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:38:03+08:00 ] 127.0.0.1 GET /admin/articles/index?page=1&limit=10
+[ info ] weibo.net/admin/articles/index?page=1&limit=10 [运行时间：0.073355s][吞吐率：13.63req/s] [内存消耗：2,731.18kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012400s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY update_time desc LIMIT 0,10 [ RunTime:0.000476s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:38:15+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.077209s][吞吐率：12.95req/s] [内存消耗：2,739.25kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011841s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:38:15+08:00 ] 127.0.0.1 POST /admin/articles/load
+[ info ] weibo.net/admin/articles/load [运行时间：0.044338s][吞吐率：22.55req/s] [内存消耗：1,687.16kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:38:15+08:00 ] 127.0.0.1 GET /admin/articles/index?page=1&limit=10
+[ info ] weibo.net/admin/articles/index?page=1&limit=10 [运行时间：0.072337s][吞吐率：13.82req/s] [内存消耗：2,731.18kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011765s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY update_time desc LIMIT 0,10 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:38:19+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.070809s][吞吐率：14.12req/s] [内存消耗：2,739.30kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010728s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:38:20+08:00 ] 127.0.0.1 POST /admin/articles/load
+[ info ] weibo.net/admin/articles/load [运行时间：0.067652s][吞吐率：14.78req/s] [内存消耗：1,687.16kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:38:21+08:00 ] 127.0.0.1 GET /admin/articles/index?page=1&limit=10
+[ info ] weibo.net/admin/articles/index?page=1&limit=10 [运行时间：0.076285s][吞吐率：13.11req/s] [内存消耗：2,731.18kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011554s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001381s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY update_time desc LIMIT 0,10 [ RunTime:0.000487s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:38:37+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.061716s][吞吐率：16.20req/s] [内存消耗：2,739.25kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000928s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000734s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:38:39+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.063109s][吞吐率：15.85req/s] [内存消耗：2,739.30kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001175s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000612s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:38:40+08:00 ] 127.0.0.1 POST /admin/articles/load
+[ info ] weibo.net/admin/articles/load [运行时间：0.044702s][吞吐率：22.37req/s] [内存消耗：1,687.16kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:38:41+08:00 ] 127.0.0.1 GET /admin/articles/index?page=1&limit=10
+[ info ] weibo.net/admin/articles/index?page=1&limit=10 [运行时间：0.063048s][吞吐率：15.86req/s] [内存消耗：2,731.18kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001337s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001259s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY update_time desc LIMIT 0,10 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:38:44+08:00 ] 127.0.0.1 POST /admin/articles/edit
+[ info ] weibo.net/admin/articles/edit [运行时间：0.056049s][吞吐率：17.84req/s] [内存消耗：2,689.59kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'id' => '23',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001090s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:38:48+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.056461s][吞吐率：17.71req/s] [内存消耗：2,739.25kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001320s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001136s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:45:24+08:00 ] 127.0.0.1 POST /admin/articles/load
+[ info ] weibo.net/admin/articles/load [运行时间：0.056933s][吞吐率：17.56req/s] [内存消耗：1,687.16kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:45:24+08:00 ] 127.0.0.1 GET /admin/articles/index?page=1&limit=10
+[ info ] weibo.net/admin/articles/index?page=1&limit=10 [运行时间：0.064491s][吞吐率：15.51req/s] [内存消耗：2,731.18kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001307s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001409s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY update_time desc LIMIT 0,10 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:45:35+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.069322s][吞吐率：14.43req/s] [内存消耗：2,739.25kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009990s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001130s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:45:36+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.070051s][吞吐率：14.28req/s] [内存消耗：2,739.25kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011772s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:45:37+08:00 ] 127.0.0.1 POST /admin/articles/load
+[ info ] weibo.net/admin/articles/load [运行时间：0.045361s][吞吐率：22.05req/s] [内存消耗：1,687.16kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:45:37+08:00 ] 127.0.0.1 GET /admin/articles/index?page=1&limit=10
+[ info ] weibo.net/admin/articles/index?page=1&limit=10 [运行时间：0.071977s][吞吐率：13.89req/s] [内存消耗：2,731.18kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010743s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY update_time desc LIMIT 0,10 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:45:41+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.078112s][吞吐率：12.80req/s] [内存消耗：2,739.25kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009775s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001926s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.001709s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:45:42+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.070934s][吞吐率：14.10req/s] [内存消耗：2,739.25kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010990s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:45:42+08:00 ] 127.0.0.1 GET /admin/index
+[ info ] weibo.net/admin/index [运行时间：0.070942s][吞吐率：14.10req/s] [内存消耗：2,739.25kb] [文件加载：73]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://weibo.net/user.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\blog/application/admin/view\index\index.html [ array (
+  0 => 'article_count',
+  1 => 'ip',
+  2 => 'time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011443s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000884s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:45:42+08:00 ] 127.0.0.1 POST /admin/articles/load
+[ info ] weibo.net/admin/articles/load [运行时间：0.049226s][吞吐率：20.31req/s] [内存消耗：1,687.16kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T14:45:43+08:00 ] 127.0.0.1 GET /admin/articles/index?page=1&limit=10
+[ info ] weibo.net/admin/articles/index?page=1&limit=10 [运行时间：0.075420s][吞吐率：13.26req/s] [内存消耗：2,731.18kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010073s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `title` LIKE '%%' LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY update_time desc LIMIT 0,10 [ RunTime:0.000540s ]
+---------------------------------------------------------------
+[ 2018-01-08T14:45:47+08:00 ] 127.0.0.1 POST /admin/articles/edit
+[ info ] weibo.net/admin/articles/edit [运行时间：0.063200s][吞吐率：15.82req/s] [内存消耗：2,689.59kb] [文件加载：71]
+[ info ] [ LANG ] D:\wamp\www\blog\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'weibo.net',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://weibo.net',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://weibo.net/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_bdb993b828cbe079a7fbc1a951f44726=1512659494; Hm_lvt_079fac161efc4b2a6f31e80064f14e82=1512659494; ip=127.0.0.1; time=2018-01-08+12%3A56%3A51; PHPSESSID=kusj0vo2gvmgpag1jf0kgg25s4',
+)
+[ info ] [ PARAM ] array (
+  'id' => '23',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'y',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010443s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000469s ]
