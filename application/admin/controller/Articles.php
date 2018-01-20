@@ -34,10 +34,7 @@ class Articles extends Base
     public function doadd()
     {
         if($this->request->isAjax()){
-            $result = $this->model->article_add($this->request->param());
-            if($result==true){
-                $this->success('发表成功');
-            }
+            $this->model->article_add($this->request->param())?$this->success('发表成功'):$this->error('发表失败');
         }
     }
 
@@ -55,7 +52,7 @@ class Articles extends Base
         $id = $this->request->param('id');
         !empty($id)?:$this->error('id不能为空');
         $result = $this->model->find($id);
-        $result!=false?:$this->error('id不正确');
+        $result?:$this->error('id不正确');
         $info = sys_config_get('article_edit');
         $this->success('请求成功','',['data'=>$result,'info'=>$info]);
     }
@@ -64,15 +61,14 @@ class Articles extends Base
     {
         $this->request->isAjax()&&$this->request->isPost()?:$this->error('请求方式不正确');
         $id = $this->request->param('id');
-        $result = $this->model->edit($id,$this->request->param());
-        $result == true?$this->success('修改成功'):$this->error('修改失败');
+        $this->model->edit($id,$this->request->param())?$this->success('修改成功'):$this->error('修改失败');
+
     }
 
     public function delete()
     {
         $this->request->isAjax()&&$this->request->isPost()?:$this->error('请求方式错误');
-        $result = $this->model->del($this->request->param('id'));
-        $result==true?$this->success('删除成功'):$this->error('删除失败');
+        $this->model->del($this->request->param('id'))?$this->success('删除成功'):$this->error('删除失败');
     }
 
 }

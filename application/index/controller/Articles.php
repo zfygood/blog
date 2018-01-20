@@ -25,7 +25,7 @@ class Articles extends Controller{
     {
         $this->model->article_inc($this->request->param('id'));
         $result  = $this->model->article_find($this->request->param('id'));
-        $result!==false?:$this->error('此文章不存在');
+        $result?:$this->error('此文章不存在');
         $this->assign('result',$result);
         return   $this->fetch('index/detail');
     }

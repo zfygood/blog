@@ -21,7 +21,7 @@ class Article extends Model
 
     public function article_add($data)
     {
-        return  $this->allowField(true)->save($data)?true:false;
+        return  $this->allowField(true)->save($data);
     }
 
     public function article_all()
@@ -30,20 +30,19 @@ class Article extends Model
     }
     public function article_find($id)
     {
-        $result = $this->where('id',$id)->find();
-        return empty($result)?false:$result;
+        return $this->where('id',$id)->find();
     }
 
     public function del($id)
     {
-        $result = $this->where('id',$id)->delete();
-        return $result?true:false;
+        return $this->where('id',$id)->delete();
+
     }
 
     public function edit($id,$data)
     {
-        $result = $this->where('id',$id)->update($data);
-        return $result==1 || $result==0?true:false;
+        return  $this->where('id',$id)->update($data);
+
     }
 
     public function article_inc($id)
