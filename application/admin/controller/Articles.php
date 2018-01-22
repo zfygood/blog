@@ -85,8 +85,9 @@ class Articles extends Base
     public function update()
     {
         $this->request->isAjax()&&$this->request->isPost()?:$this->error('请求方式不正确');
-        $id = $this->request->param('id');
-        $this->model->edit($id,$this->request->param())?$this->success('修改成功'):$this->error('修改失败');
+        $data = $this->request->param();
+        $info = sys_config_get('article_path');
+        $this->model->edit($data)?$this->success('修改成功','',$info):$this->error('修改失败');
 
     }
 

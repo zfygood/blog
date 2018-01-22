@@ -39,9 +39,9 @@ class Article extends Model
 
     }
 
-    public function edit($id,$data)
+    public function edit($data)
     {
-        return  $this->where('id',$id)->update($data);
+        return  $this->where('id',$data['id'])->update($data);
 
     }
 
