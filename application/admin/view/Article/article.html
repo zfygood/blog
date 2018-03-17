@@ -11,7 +11,7 @@
             <input class="layui-input" name="id" id="demoReload" autocomplete="off">
         </div>
         <button class="layui-btn" data-type="reload" style="background:royalblue ">搜索</button>
-        <a href="{:url('admin/articles/add')}" class="layui-btn" style="background:royalblue">发表文章</a>
+        <a href="#" class="layui-btn acticle-c" style="background:royalblue">发表文章</a>
     </div>
 
             <table id="demo" lay-filter="test">
@@ -20,11 +20,11 @@
             </fieldset>
         </div>
     </div>
-
 <script src="/public/static/layui/layui.all.js"></script>
 <script type="text/html" id="barDemo">
     <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
     <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+
 </script>
 <script>
     layui.config({
@@ -32,5 +32,6 @@
         , debug: true //用于开启调试模式，默认false，如果设为true，则JS模块的节点会保留在页面
         , base: '/public/static/js/' //设定扩展的Layui模块的所在目录，一般用于外部模块扩展
     }).use('article');
+
 </script>
 </div>

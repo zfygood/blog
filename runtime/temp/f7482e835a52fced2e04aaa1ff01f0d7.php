@@ -1,4 +1,4 @@
-<?php /*a:1:{s:56:"D:\wamp\www\blog/application/admin/view\index\index.html";i:1516628367;}*/ ?>
+<?php /*a:1:{s:56:"D:\wamp\www\blog/application/admin/view\index\index.html";i:1516631677;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>

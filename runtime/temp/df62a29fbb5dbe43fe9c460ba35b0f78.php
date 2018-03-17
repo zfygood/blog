@@ -1,4 +1,4 @@
-<?php /*a:1:{s:57:"D:\wamp\www\blog/application/index/view\index\detail.html";i:1516427632;}*/ ?>
+<?php /*a:1:{s:57:"D:\wamp\www\blog/application/index/view\index\detail.html";i:1521279939;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,11 +48,14 @@
                 <fieldset class="layui-elem-field layui-field-title" style="margin-bottom:0">
                     <legend>来说两句吧</legend>
                     <div class="layui-field-box">
-                        <form class="layui-form blog-editor" action="">
-                            <input type="hidden" name="articleId" value="LY08302213354352">
+                        <form class="layui-form" action="" id="comments">
+                            <p style="color:grey">昵称</p><input type="text" required lay-verify="required" class="layui-input" name="username">
+                            <p style="color:grey">邮箱</p><input type="text" required lay-verify="required" class="layui-input" name="email">
+                            <br/>
                             <div class="layui-form-item">
-                                <textarea name="editorContent" lay-verify="content" id="remarkEditor"
-                                          placeholder="请输入内容" class="layui-textarea layui-hide"></textarea>
+                                <textarea name="content" lay-verify="content" id="remarkEditor"
+                                          placeholder="请输入内容" class="layui-textarea">
+                                                                </textarea>
                                 <div class="layui-layedit">
                                     <div class="layui-unselect layui-layedit-tool"><i
                                             class="layui-icon layedit-tool-face" title="表情" layedit-event="face"
@@ -72,7 +75,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="layui-form-item">
+                        <div class="layui-form-item">
                                 <button class="layui-btn" style="background-color:royalblue" lay-submit="formRemark" lay-filter="formRemark">提交评论</button>
                             </div>
                         </form>
@@ -80,22 +83,43 @@
                 </fieldset>
                 <div class="blog-module-title">最新评论</div>
                 <ul class="blog-comment">
-                    <li>
+                    <?php if(is_array($comment) || $comment instanceof \think\Collection || $comment instanceof \think\Paginator): $i = 0; $__LIST__ = $comment;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+                    <li class="clone-com">
                         <div class="comment-parent">
-                            <img src="" alt="">
+                            <img src="__STATIC__/image/icon.jpg" alt="头像">
                             <div class="info">
-                                <span class="username"></span>
-                                <span class="time"></span>
+                                <span class="username"><?php echo htmlentities($vo['username']); ?></span>
+                                <span class="time"><?php echo htmlentities(date("y-m-d h:i:s",!is_numeric($vo['create_time'])? strtotime($vo['create_time']) : $vo['create_time'])); ?></span>
                             </div>
                             <div class="content">
-                                <p>评论一下吧</p>
+                                <p class="pl"><?php echo htmlentities($vo['content']); ?></p>
                                 <p><br></p>
                             </div>
                         </div>
                     </li>
+                    <?php endforeach; endif; else: echo "" ;endif; ?>
                 </ul>
             </div>
         </div>
+
+        <ul class="comments-test" style="display:none">
+            <li class="clone-com1">
+                <div class="comment-parent">
+                    <img src="" alt="">
+                    <div class="info">
+                        <span class="username"></span>
+                        <span class="time"></span>
+                    </div>
+                    <div class="content">
+                        <p class="pl">评论一下吧</p>
+                        <p><br></p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+
+
         <div class="blog-right">
             <div class="blog-search">
                 <form class="layui-form" action="">
@@ -159,22 +183,43 @@
 <script type="text/javascript" src="__STATIC__/layui/layui.js"></script>
 
 <script>
-    layui.use('element', function () {
-        var element = layui.element;
-    });
-    layui.use('form', function () {
+    layui.use(['form','jquery','element','layedit'], function () {
         var form = layui.form;
-
+        var $ = layui.jquery;
+        var element = layui.element;
+        var layedit = layui.layedit;
+        var index = layedit.build('remarkEditor'); //建立编辑器
         //监听提交
-        form.on('submit(formSearch)', function (data) {
-            layer.msg(JSON.stringify(data.field));
+
+        form.on('submit(formRemark)', function (data) {
+            var users = $("input[name=username]");
+            var emails = $("input[name=email]");
+            var content = layedit.getContent(index);
+            var username = users.val();
+            var email = emails.val();
+            var id = "<?php echo htmlentities($result['id']); ?>";
+            var url = "<?php echo url('comment'); ?>";
+            $.post(url,{'id':id,'content':content,'username':username,'email':email},function(res){
+                if(res.code=='0'){
+                    console.log(res);
+                    layer.msg(res.msg);
+                }else{
+                    users.val('');
+                    emails.val('');
+                    layedit.build('remarkEditor');
+                    var cl = $('.clone-com1').clone();
+                    cl.find('.username').html(username);
+                    cl.find('.time').html(res.data);
+                    cl.find('.pl').html(content);
+                    cl.attr('class','pl');
+                    cl.appendTo($('.blog-comment'));
+                }
+            });
             return false;
         });
     });
-    layui.use('layedit', function(){
-        var layedit = layui.layedit;
-        layedit.build('remarkEditor'); //建立编辑器
-    });
+
+
 </script>
 
 </html>

@@ -4,6 +4,7 @@ namespace app\index\controller;
 use think\Controller;
 use app\common\Article;
 use think\Hook;
+use think\route\dispatch\Callback;
 
 class Index extends Controller
 {
