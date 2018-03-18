@@ -41,7 +41,12 @@ class Article extends Model
 
     public function edit($data)
     {
-        return  $this->where('id',$data['id'])->update($data);
+        $result = $this->where('id',$data['id'])->update($data);
+        if($result<0){
+            return false;
+        }else{
+            return true;
+        }
 
     }
 

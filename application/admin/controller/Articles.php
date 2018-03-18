@@ -49,7 +49,6 @@ class Articles extends Base
      */
     public function doadd()
     {
-
         if($this->request->isAjax()){
             $this->model->article_add($this->request->param())?$this->success('发表成功'):$this->error('发表失败');
         }
