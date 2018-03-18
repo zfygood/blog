@@ -39,7 +39,9 @@ class Articles extends Base
      */
     public function add()
     {
-        return $this->fetch('article/article_add');
+        if($this->request->isAjax() && $this->request->isPost()) {
+            $this->success('请求成功','',sys_config_get('article_add'));
+        }
     }
 
     /**
@@ -47,6 +49,7 @@ class Articles extends Base
      */
     public function doadd()
     {
+
         if($this->request->isAjax()){
             $this->model->article_add($this->request->param())?$this->success('发表成功'):$this->error('发表失败');
         }

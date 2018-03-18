@@ -24,7 +24,6 @@ class Login extends Controller
      */
     public function login()
     {
-        Db::name('comment')->insert(['username'=>'1111']);
         return $this->fetch();
     }
 
